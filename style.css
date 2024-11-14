@@ -1,0 +1,21 @@
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(236, 119, 119);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: left var(--duration) linear;
+  }
+  #ball1 {
+    left: 0;
+  }
+  #ball2 {
+    left: 60px;
+    top: 60%;
+  }
+  #ball3 {
+    left: 120px;
+    top: 70%;
+  }
